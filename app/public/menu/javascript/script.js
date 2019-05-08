@@ -49,7 +49,23 @@ $(document).ready(function() {
             }
         });
     });
-   
+
+    $("#field-add").on("click", function() {
+
+        let burger = document.getElementById("burger-add").value;
+        var newData = {
+            burger_name: burger,
+            devoured: "0"
+        };
+        console.log(newData)
+
+        $.post("/api/burgers", newData)
+        .then(function(data) {
+            location.reload();
+          console.log(data);
+        });
+    });
+
     function generateP(data) {
         let newEl = $("<p>");
         newEl.html(data.id + ". " + data.burger_name)
