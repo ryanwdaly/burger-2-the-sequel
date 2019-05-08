@@ -1,0 +1,28 @@
+{
+  "name": "burger-2-the-sequel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanwdaly/burger-2-the-sequel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanwdaly/burger-2-the-sequel/issues"
+  },
+  "homepage": "https://github.com/ryanwdaly/burger-2-the-sequel#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.18.11",
+    "path": "^0.12.7",
+    "sequelize": "^5.7.6"
+  }
+}

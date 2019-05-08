@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../assets/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script language="javascript" type="text/javascript" src="./javascript/script.js"></script>
+  <title>Rocky's Burgers</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="../main.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./menu.html">Menu</a>
+          </li>
+        </ul>
+      </nav>
+
+      <h1>Menu</h1>
+      <div class="container" id='main-container'>
+
+          <div class="item-list col"> 
+            <h2 >Available</h1>
+            <div id="available-container"></div>
+          </div>
+          <div class="item-list col">
+            <h2 id="devoured-heading">Devoured</h2>
+            <div id="devoured-container"></div>
+          </div>
+
+          <br>
+          
+      </div>
+
+
+      <div class="form-group" id="form-div">
+
+        <textarea class="form-control" rows="5" id="burger-field" placeholder="Enter a burger you wish to eat and click submit!"></textarea>
+        <button class="btn btn-primary" id="field-submit">Submit</button>
+      </div>
+
+  
+</body>
+</html>

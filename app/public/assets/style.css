@@ -1,0 +1,72 @@
+.container{
+    margin:auto;
+    width: 100%
+}
+.item-list{
+    width: 45%;
+    float: left;
+
+}
+.item{
+    margin-left: 25px;
+}
+html body {
+    width: 100%;
+    background-color: #5FC6E8;
+}
+
+
+h1 {
+    
+    font-weight: bold;
+
+    width: 100%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+#main-container {
+    display: flex;
+}
+#available-container {
+    background-color: white;
+    margin-right: 5px;
+    border-style: solid;
+
+}
+
+#devoured-container {
+    background-color: white;
+    margin-left: 5px;
+    border-style: solid;
+
+}
+
+#devoured-heading {
+    margin-left: 5px;
+}
+
+
+.form-group {
+    margin-top: 15px;
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+#main-container {
+    display: block;
+}
+
+#burger-field {
+    display: block;
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+
+button{
+    float: left;
+    
+    /* padding-right: 10px; */
+}
